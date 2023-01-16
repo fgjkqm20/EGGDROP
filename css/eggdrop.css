@@ -1,0 +1,260 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button {
+    background: none;
+    color: inherit;
+    border: none;
+    cursor: pointer;
+    outline: inherit;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+/* header-wrap */
+.header-wrap {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+.header-wrap>div {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+.site-header {
+    margin: 0 auto;
+    text-align: center;
+    width: 1220px;
+    /* overflow: hidden; */
+}
+.h1 {
+    width: 350px;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    float: left;
+    text-align: center;
+    font-size: 38px;
+    font-family: 'Lato', sans-serif;
+
+}
+.navi {
+    width: 1000px;
+}
+.navi-ul {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.navi-ul>li {
+    height: 80px;
+    line-height: 80px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Secular One', sans-serif;
+}
+.navi-ul>li:hover {
+    color: #ea0029;
+    text-decoration: underline;
+    border-radius: 3px;
+    transition-duration: 0.5s;
+}
+.sub {
+    display: block;
+    /* display: none; */
+}
+.sub>ul>li{
+    margin-top: 15px;
+    font-weight: 300;
+}
+.sub-wrap{
+    height: 260px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    width: 1220px;
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    display: none;
+    
+}
+.sub>ul>li:hover{
+    color:  #ea0029;
+}
+.sub1 {
+    position: absolute;
+    left: 350px;
+}
+.sub2 {
+    position: absolute;
+    left: 618px
+}
+.sub3 {
+    position: absolute;
+    left: 750px;
+}
+body {
+    padding-top: 80px;
+}
+.slide-wrap {
+    width: 1220px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    z-index: 50;
+}
+.slide-wrap>ul{
+    padding-top: 80px;
+    width: 7320px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+}
+.slide-wrap>ul>li {
+    width: 1220px;
+    float: left;
+}
+.slide-wrap>ul>li>img{
+    width: 100%;
+    height: 500px;
+}
+.slide-navi {
+    height: 500px;
+    line-height: 500px;
+    position: absolute;
+    top:0;
+    text-align: center;
+    opacity: 0.4;
+}
+.prev {
+    left: 0;
+}
+.next {
+    right: 0;
+}
+.slide-navi>span {
+    font-size: 30px;
+    color: #fff;
+}
+.slide-navi:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+/* menu-wrap */
+.menu-name {
+    width: 1220px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Secular One', sans-serif;  
+    font-size: 30px;
+}
+.menu-ul1 {
+    width: 1000px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    font-family: 'Secular One', sans-serif;
+    justify-content: space-evenly;
+}
+.menu-ul1>li {
+    cursor: pointer;
+}
+.menu-ul1>li:nth-child(2){
+    color:  #ea0029;
+    text-decoration: underline;
+}
+.menu-ul2 {
+    display: flex;
+    margin: 200px 0;
+}
+.menu-ul2>*{
+    transform: translateX(-300px);
+    transition-duration: 3s;
+}
+.menu-ul2 img{
+    width: 500px;
+    height: 450px;
+};
+.menu-ul2>li{
+
+}
+.menu-ul2>li>h3{
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* swiper-wrap  */
+.swiper-wrap {
+    height: 1000px;
+    background-color: #f0ffaa;
+}
+.swiper-container {
+    width: 1220px;
+    margin: 0 auto;
+    position: relative;
+}
+.swiper-container>h3 {
+    height: 200px;
+    line-height: 200px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    text-align: center;
+}
+.img1 {
+    position: absolute;
+    top: 250px;
+    left: 400px;
+}
+.img2 {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 80px;
+    left: 900px;
+}
+.img2 {
+    animation: rotate_image 6s linear infinite;
+    transform-origin: 50% 50%;
+}
+
+@keyframes rotate_image{
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.btn1 {
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 300px;
+    float: left;
+}
+.btn1>div {
+    height: 40px;
+    line-height: 40px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+.btn1:hover {
+    background-color: #ea0029;
+    color: white;
+    border-style: none;
+}
+
