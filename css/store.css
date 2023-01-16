@@ -16,9 +16,11 @@ body {
     padding: 0;
 
 }
-.map>div{
+
+.map>div {
     margin: auto;
 }
+
 .page-header p {
     font-weight: 700;
     font-size: 20px;
@@ -107,17 +109,19 @@ button {
     cursor: pointer;
     background: transparent;
 }
-.list{
+
+.list {
     overflow: auto;
     overflow-x: hidden;
     position: absolute;
-    top:220px;
+    top: 220px;
     bottom: 0;
     left: 0;
     width: 100%;
     padding-left: 0;
 }
-.list li{
+
+.list li {
     text-align: center;
     list-style: none;
 }
@@ -139,10 +143,12 @@ button {
     font-weight: 700;
     border-bottom: 2px solid #000;
 }
-address{
+
+address {
     font-style: normal;
     display: block;
 }
-li p{
+
+li p {
     margin: 0;
 }

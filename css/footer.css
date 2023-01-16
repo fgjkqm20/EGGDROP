@@ -1,10 +1,12 @@
-body{
+body {
     font-family: 'AppleSDGothicNeo', 'Noto Sans KR', sans-serif;
 }
+
 .menu-info a {
     color: white;
     text-decoration: none;
 }
+
 .site-footer {
     font-size: 16px;
     font-weight: 500;
@@ -14,87 +16,109 @@ body{
     position: relative;
     background: #010101;
 }
+
 .logo {
     margin: 0;
 }
+
 .site-footer .inner {
     width: 1220px;
     margin: 0 auto;
 }
+
 .site-footer h1 {
     overflow: hidden;
     width: 300px;
     float: left;
 }
-.site-footer h1 > a {
+
+.site-footer h1>a {
     width: 195.114px;
     height: 46.482px;
     color: white;
     text-decoration: none;
 }
+
 .logo span {
     float: left;
     font-size: 50px;
     color: #ffe4cd;
 }
+
 .sns {
     float: right;
 }
-.sns>a>img{
+
+.sns>a>img {
     margin-top: 10px;
 }
-.sns>a:last-child>img{
+
+.sns>a:last-child>img {
     padding-right: 35px;
 }
+
 .logo-sns {
     overflow: hidden;
 }
+
 .menu-footer {
     padding: 20px 0 0 48px;
 }
+
 .menu-info {
     margin-top: 20px;
     overflow: hidden;
     font-size: 18px;
 }
+
 .meun-info * {
     font-size: 18px;
 }
+
 nav {
     float: left;
 }
+
 .info {
     float: right;
 }
-.info > ul {
+
+.info>ul {
     list-style: none;
     margin-top: 5px;
     padding-left: 0;
 }
+
 .info li {
     display: inline-block;
     position: relative;
     vertical-align: top;
     padding-right: 30px;
 }
-.box>ul{
+
+.box>ul {
     margin-top: 5px;
     margin-bottom: 5px;
     padding-left: 40px;
 }
-address{
+
+address {
     font-style: normal;
 }
-address>div{
+
+address>div {
     color: #fff;
 }
-address>div>p{
+
+address>div>p {
     margin: 0;
     padding: 0;
 }
+
 a:hover {
     cursor: pointer;
 }
-.menu-info a:hover{
+
+.menu-info a:hover {
     color: #ea0029;
 }
